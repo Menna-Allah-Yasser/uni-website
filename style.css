@@ -1,0 +1,77 @@
+
+body, html {
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .bg-img {
+            /* The image used */
+            background-image: url("loginImg.png");
+            background-size: cover;
+            height: 550px;
+            /* Center and scale the image nicely */
+            background-position: 100% 100%;
+            background-repeat: no-repeat;
+
+        }
+
+        /* Add styles to the form container */
+        .container {
+            position: absolute;
+            right: 0;
+            margin: 50px;
+            max-width: 300px;
+            height: 380px;
+            padding: 16px;
+            border-radius: 30px;
+            background-color: white;
+        }
+
+        /* Full-width input fields */
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: black;
+            background-color: white;
+        }
+
+        input[type=text]:focus,
+        input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+        /* Set a style for the submit button */
+        .btn {
+            background-color: #767f7c;
+            color: white;
+            padding: 16px 20px;
+            margin-top:20px ;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+            border-radius: 30px;
+        }
+
+        .btn:hover {
+            opacity: 1;
+        }
+
+        .im {
+            display: block;
+            width: 50%;
+            height: 70px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .table {
+            padding: 0 15px 0 15px ;
+        }
